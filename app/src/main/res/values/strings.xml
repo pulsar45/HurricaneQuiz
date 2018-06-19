@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Hurricane Quiz</string>
+    <string name="question_one_text">2. There are five different categories of hurricanes?</string>
+    <string name="question_two_text">3. The National Hurricane Center is based in Miami, Ohio?</string>
+    <string name="question_three_text">4. 74 mph winds is considered a category 1 hurricane?</string>
+    <string name="question_four_text">5. How can a Hurricane be destructive?</string>
+    <string name="winds">Winds</string>
+    <string name="storm_surge">Storm surge</string>
+    <string name="tornados">Tornados</string>
+    <string name="none_of_the_above">Heavy rain</string>
+    <string name="submit_answers">Submit answers</string>
+    <string name="reset_quiz">Reset Quiz</string>
+    <string name="quiz_results">Quiz Results</string>
+    <string name="_2_national_hurricane_center_is_based_in_miami_florida">2. National Hurricane Center is based in Miami, Florida?</string>
+    <string name="the_national_hurricane_center_is_based_in_miami_ohio">The National Hurricane Center is based in Miami, Ohio?</string>
+    <string name="Checkbox4">None of the above</string>
+    <string name="Question_1_true">True</string>
+    <string name="question_1_false">False</string>
+    <string name="question_2_true">True</string>
+    <string name="question_2_false">False</string>
+    <string name="question_3_true">True</string>
+    <string name="question_3_false">False</string>
+</resources>

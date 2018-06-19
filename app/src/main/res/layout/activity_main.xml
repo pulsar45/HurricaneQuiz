@@ -1,0 +1,231 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/hurricane"
+    android:orientation="vertical">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/name_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#F8F8FF"
+                android:hint="1. Name the first storm for the 2018 Atlantic season? "
+                android:inputType="textCapWords"
+                android:singleLine="false"
+                android:textColor="#F8F8FF"
+                android:textColorHint="#F8F8FF" />
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="24dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/question_one_text"
+                    android:textColor="#F8F8FF"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/true_Cat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#F8F8FF"
+                    android:text="@string/Question_1_true"
+                    android:textColor="#F8F8FF"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/false_Cat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#F8F8FF"
+                    android:text="@string/question_1_false"
+                    android:textColor="#F8F8FF"
+                    android:textSize="20sp" />
+            </RadioGroup>
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/question_two_text"
+                    android:textColor="#F8F8FF"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/true_Nhc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#F8F8FF"
+                    android:text="@string/question_2_true"
+                    android:textColor="#F8F8FF"
+                    android:textSize="20sp" />
+
+
+                <RadioButton
+                    android:id="@+id/false_Nhc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#F8F8FF"
+                    android:text="@string/question_2_false"
+                    android:textColor="#F8F8FF"
+                    android:textSize="20sp" />
+
+            </RadioGroup>
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="@string/question_three_text"
+                    android:textColor="#F8F8FF"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/true_Winds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#F8F8FF"
+                    android:text="@string/question_3_true"
+                    android:textColor="#F8F8FF"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/false_Winds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#F8F8FF"
+                    android:text="@string/question_3_false"
+                    android:textColor="#F8F8FF"
+                    android:textSize="20sp" />
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/question_four_text"
+                android:textColor="#F8F8FF"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/storm_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#F8F8FF"
+                android:paddingLeft="16sp"
+                android:text="@string/storm_surge"
+                android:textColor="#F8F8FF"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/winds_true_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#F8F8FF"
+                android:paddingLeft="16sp"
+                android:text="@string/winds"
+                android:textColor="#F8F8FF"
+                android:textSize="20sp" />
+
+
+            <CheckBox
+                android:id="@+id/tornados_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#F8F8FF"
+                android:paddingLeft="16sp"
+                android:text="@string/tornados"
+                android:textColor="#F8F8FF"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/rain_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#F8F8FF"
+                android:paddingLeft="16sp"
+                android:text="@string/Checkbox4"
+                android:textColor="#F8F8FF"
+                android:textSize="20sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:onClick="submitAnswers"
+                    android:text="@string/submit_answers"
+                    android:textAllCaps="true" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:onClick="resetQuiz"
+                    android:text="@string/reset_quiz"
+                    android:textAllCaps="true" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:text="@string/quiz_results"
+                android:textAllCaps="true"
+                android:textColor="#F8F8FF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/answer_summary_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text=""
+                android:textColor="#F8F8FF"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
